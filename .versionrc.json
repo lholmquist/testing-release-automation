@@ -1,5 +1,6 @@
 {
-  "types": [
+  "properties": {
+    "types": [
     {
       "type": "feat",
       "section": "Features",
@@ -46,4 +47,5 @@
       "hidden": false
     }
   ]
+  }
 }
