@@ -7,9 +7,9 @@ jobs:
   release-please:
     runs-on: ubuntu-latest
     steps:
-      - uses: lholmquist/release-please-action@v0.0.5
+      - uses: GoogleCloudPlatform/release-please-action@v2.2.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           release-type: node
           package-name: testing-release-automation
-          types: '[{"type":"feat","section":"Features","hidden":false},{"type":"fix","section":"Bug Fixes","hidden":false},{"type":"chore","section":"Miscellaneous","hidden":false}]'
+          changelog-types: '[{"type":"feat","section":"Features","hidden":false},{"type":"fix","section":"Bug Fixes","hidden":false},{"type":"chore","section":"Miscellaneous","hidden":false}]'
